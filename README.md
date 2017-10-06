@@ -13,4 +13,4 @@
 
 ## Other
 * The server here is not production ready, just for testing.
-* Flask API docs relevant to this: http://flask.pocoo.org/docs/0.12/api/
+* Flask API docs relevant to this: http://flask.pocoo.org/docs/0.12/api/, http://werkzeug.pocoo.org/docs/0.12/datastructures/
