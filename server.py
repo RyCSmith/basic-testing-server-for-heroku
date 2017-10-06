@@ -6,7 +6,7 @@ from flask import request
 # from flask import json
 # from flask import jsonify
 @app.route("/")
-def two_hundred():
+def root():
 	print(request.__dict__)
 	# print request.args
 	# print request.headers
