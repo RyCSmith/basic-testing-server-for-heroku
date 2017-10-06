@@ -44,4 +44,4 @@ def log_request_data(request):
 		'args' : request.args,
 		'headers' : request.headers.items()
 	}
-	print json.dumps(r, default=lambda o: o.__dict__, indent=4, sort_keys=True)
+	print(json.dumps(r, default=lambda o: o.__dict__, indent=4, sort_keys=True))
